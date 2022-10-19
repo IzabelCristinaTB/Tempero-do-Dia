@@ -1,0 +1,123 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: table;
+}
+
+.menu{
+    text-align: center;
+}
+
+.nav {
+    height: 60px;
+}
+
+ul {
+    margin: 0px auto;
+    width: 1100px;
+    height: 60px;
+    list-style: none;
+    background-color: #0090C1;
+}
+
+li {
+    margin-top: 16px;
+    display: inline-block;  
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 23px;
+    transition: 1s;
+    padding: 10px   10px;
+}
+
+li a:hover {
+    transition: 2s;
+    color: #D81E5B;
+    background-color: rgb(206, 206, 206);
+}
+
+.menu ul ul {
+    display: none;
+    padding: 10x   30px;
+    position: absolute;
+}
+
+.menu ul li:hover ul{
+    display: block;
+}
+
+.menu ul ul {
+    margin: 11px auto;
+    height: 345px;
+    width: 113px;
+}
+
+.menu ul ul li a{
+    display: block;
+}
+
+
+
+.conteudo {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+
+main.cards{
+    display: flex;
+    padding: 32px;
+}
+
+main.cards section.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 256px;
+}
+
+main.cards section.card .icon{
+    width: 150px;
+    height: 100px;
+}
+
+main.cards section.card img{
+    width: 100%;
+}
+.conteudo a{
+    text-decoration: none;
+    background-color: #86868630;
+}
+
+.error-validation{
+    color: red;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template{
+    display: none;
+}

@@ -1,0 +1,43 @@
+.titulo{
+    text-align: center;
+    margin-top: 105px;
+    font-family: cursive;
+    text-decoration: wavy;
+}
+
+.foto{
+    text-align: center;
+    margin-left: 600px;
+}
+
+.ingredientes{
+    text-align: left;
+    margin-top: -290px;
+    margin-left: 187px;
+    font-family: inherit;
+}
+
+.ttl{
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 315px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.conteudos{
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.video{
+    margin-left: 400px;
+}
+
+.titl{
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 286px;
+    font-family: 'Courier New', Courier, monospace;
+}
